@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    }
+
+a {
+    color : blue;
+    text-decoration: none;
+    }
+h1{
+    font-size:45px;
+    text-align:center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+    }
+
+
+
+
+    #grid{
+      display: grid;
+      grid-template-columns: 220px 1fr;
+    }
+
+ #nav{
+
+      border-right:1px solid gray;
+      width:170px;
+      margin:0;
+      padding:20px;
+
+    }
