@@ -1,32 +1,54 @@
 body{
     margin:0;
+    font-family :"맑은 고딕";
     }
 
 a {
     color : blue;
-    text-decoration: none;
+
     }
-h1{
+
+    input{
+        margin:0;
+
+    }
+
+    h1{
+    background-color:pink;
+    font-weight:bold;
     font-size:45px;
     text-align:center;
-    border-bottom:1px solid gray;
     margin:0;
-    padding:20px;
+    border-bottom:1px solid gray;
+    padding:60px;
+
+    }
+    h2,h3{
+    color:red;
+
     }
 
-
-
+    h4{
+         text-align:center;
+        }
 
     #grid{
       display: grid;
-      grid-template-columns: 220px 1fr;
+      grid-template-columns: 270px 900px 370px;
     }
 
- #nav{
-
+ nav{
+      width:210px;
       border-right:1px solid gray;
-      width:170px;
       margin:0;
-      padding:20px;
+      padding:10px;
+
+    }
+
+material{
+    width:280px;
+    border-left:1px solid gray;
+    margin:0;
+    padding:20px;
 
     }
