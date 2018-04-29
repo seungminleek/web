@@ -21,7 +21,7 @@ a {
     margin:0;
     border-bottom:1px solid gray;
     padding:60px;
-
+    background-image:url('d.jpg');
     }
     h2,h3{
     color:red;
@@ -42,7 +42,7 @@ a {
       border-right:1px solid gray;
       margin:0;
       padding:10px;
-
+      background-color:#FFFACD;
     }
 
 material{
